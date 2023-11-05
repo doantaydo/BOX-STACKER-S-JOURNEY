@@ -15,8 +15,8 @@ public class scoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        currentScoreText.text = "Score: " + currentScore.ToString("D5");
-        finalScoreText.text = "Score: " + currentScore.ToString("D5");
+        currentScoreText.text = "Score: " + currentScore.ToString("D4");
+        finalScoreText.text = "Score: " + currentScore.ToString("D4");
         bestScoreText.text = "Best: 00000";
     }
 
